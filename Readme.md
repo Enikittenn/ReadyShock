@@ -12,7 +12,7 @@ Once the mod is enabled, any time the user is shot with a bullet that goes throu
 
 - All bullet impacts cause the same level of shock.  Eventually I'd like to add more effects like a lighter shock for flashbangs.
 
-- This is my first Lua mod - I don't know what I'm doing! This code is provided as-is with no guarentees that it will function at all, or as specified. You are accepting all risk, including the risk of being zapped uncontrollably, by installing this mod.
+- ***This code is provided as-is with no guarentees that it will function at all, or as specified. You are accepting all risk, including the risk of being zapped uncontrollably, by installing this mod.***
 
 ## How to Use
 - Install [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) into your copy of Ready or Not. I recommend doing the full developer-build.
