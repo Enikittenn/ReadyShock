@@ -30,3 +30,5 @@ Once the mod is enabled, any time the user is shot with a bullet that goes throu
 - Start the game! You should see a log in the UE4SS debug console saying something like
 
 `Registered native hook (69, 70) for Function /Script/ReadyOrNot.PlayerCharacter:Client_BulletHit`
+
+- Start a match and get shot! Your pishock should be triggered automatically
