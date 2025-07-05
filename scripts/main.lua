@@ -25,14 +25,13 @@ local debounceSeconds = config.DebounceSeconds
 
 function send_pishock()
     --print("Running debounce\n")
-    local now = os.time()
+    local now = os.clock()
     if now - lastShockTime < debounceSeconds then
         print("Debounced PiShock trigger - this bullet will not trigger a pishock event\n")
         return
     end
     lastShockTime = now
     
-    local startTime = os.clock()
     os.execute(curlCommand)
     print("Zap executed\n")
 end
