@@ -9,7 +9,7 @@ local debounceSeconds = config.DebounceSeconds
     local jsonPayload = string.format([[
 {
     "Username":"%s",
-    "Name":"ReadyOrNot_Mod",
+    "Name":"ReadyShock",
     "Code":"%s",
     "Intensity":"%s",
     "Duration":"%s",
@@ -31,7 +31,7 @@ function send_pishock()
         return
     end
     lastShockTime = now
-    
+
     os.execute(curlCommand)
     print("Zap executed\n")
 end
