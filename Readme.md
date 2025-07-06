@@ -17,7 +17,8 @@ Once the mod is enabled, any time the user is shot with a bullet that goes throu
 ## How to Use
 - Install [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) into your copy of Ready or Not. I recommend doing the full developer-build.
 - Run the game and make sure it still works.
-- In the Mods folder created during the UE4SS setup, create a new folder called *ReadyShock*. Copy the scripts folder in this repo there
+- In the `Mods` folder created during the UE4SS setup, create a new folder called *ReadyShock*. Copy the scripts folder in this repo there
+- Add the line `ReadyShock: 1` to the bottom of the list of predefined mods in the mods.txt file, which is located in the `Mods` folder
 - Create a new Code through the Pishock UI and set up an API Key
 - Configure the values in config.lua as follows
     - Username = "YOUR_PISHOCK_USERNAME", --Replace this with your Pishock Username
